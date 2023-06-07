@@ -1,10 +1,10 @@
-arr = [1, 5, 3, 8, 2, 7, 4, 6]
-min_val = 5
-max_val = 8
+arr = [-5, 9, 0,3,-1,-2,1,4,-2,10,2,0,-9,8,10,-9,0,-5,-5,7]
+min_val = 6
+max_val = 11
 indexes = []
 
 for i in range(len(arr)):
-    if min_val <= arr[i] <= max_val:
+    if min_val < arr[i] < max_val:
         indexes.append(i)
 
 print(indexes)
